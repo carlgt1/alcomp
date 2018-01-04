@@ -1,0 +1,112 @@
+
+Host cair.kaist.ac.kr
+
+    Location: /systems/msdos/simtel/msdos/music
+           FILE -r-xr-xr-x     178975  Jul 12 07:13  alcomp10.zip
+
+Host freebsd.cdrom.com
+
+    Location: /.2/simtel/msdos/music
+           FILE -rw-r--r--     180560  Jul 14 15:59  alcomp10.zip
+
+Host ftp.cc.saga-u.ac.jp
+
+    Location: /pub/comp.binaries.ms-windows/vol.05
+           FILE -rw-------     180560  Aug  2 12:19  alcomp10.zip
+
+Host ftp.ccu.edu.tw
+
+    Location: /pub0/cica/sounds
+           FILE -r--r--r--     180560  Jul 12 23:00  alcomp10.zip
+
+Host ftp.center.osaka-u.ac.jp
+
+    Location: /.u7/win3/sounds
+           FILE -r--r--r--     180560  Jul 13 02:31  alcomp10.zip
+    Location: /win3/sounds
+           FILE -r--r--r--     180560  Jul 13 02:31  alcomp10.zip
+
+Host ftp.edvz.uni-linz.ac.at
+
+    Location: /pub/msdos/utils/cicawin3/sounds
+           FILE -rw-r--r--     180560  Sep 21 08:48  alcomp10.zip
+
+Host ftp.edvz.univie.ac.at
+
+    Location: /pc/dos/music
+           FILE -rw-r--r--     180560  Jul 14 15:00  alcomp10.zip
+    Location: /pc/windows/win3/sounds
+           FILE -rw-r--r--     180560  Jul 13 04:31  alcomp10.zip
+
+Host ftp.iij.ad.jp
+
+    Location: /.4/win3/sounds
+           FILE -r--r--r--     180560  Jul 13 11:31  alcomp10.zip
+    Location: /.5/msdos/music
+           FILE -r--r--r--     180560  Jul 14 13:00  alcomp10.zip
+
+Host ftp.kuis.kyoto-u.ac.jp
+
+    Location: /MSDOS/WINDOWS/cica/sounds
+           FILE -rw-rw-r--     180560  Jul 14 05:31  alcomp10.zip
+    Location: /MSDOS/simtel20-archive/music
+           FILE -rw-rw-r--     180560  Jul 14 22:00  alcomp10.zip
+    Location: /WINDOWS/cica/sounds
+           FILE -rw-rw-r--     180560  Jul 14 05:31  alcomp10.zip
+    Location: /mirrors/cica.win3/sounds
+           FILE -rw-rw-r--     180560  Jul 14 05:31  alcomp10.zip
+    Location: /mirrors/simtel20.msdos/music
+           FILE -rw-rw-r--     180560  Jul 14 22:00  alcomp10.zip
+
+Host ftp.nec.co.jp
+
+    Location: /.s0/news_archive/ms-windows/volume5
+           FILE -rw-------     180560  Aug  1 21:45  alcomp10.zip
+
+Host ftp.sunet.se
+
+    Location: /pub/pc/windows/mirror-cica/uploads
+           FILE -r--r--r--     180560  Jul 13 03:31  alcomp10.zip
+
+Host ftp.technion.ac.il
+
+    Location: /pub/unsupported/dos/simtel/music
+           FILE -rwxr--r--     180560  Jul 15 00:00  alcomp10.zip
+    Location: /pub/unsupported/mswin/cica/sounds
+           FILE -rwxr--r--     180560  Jul 13 07:31  alcomp10.zip
+
+Host ftp.uga.edu
+
+    Location: /msdos/mirror/music
+           FILE -r--r--r--     180560  Aug  3 18:51  alcomp10.zip
+
+Host ftp.uu.net
+
+    Location: /systems/ibmpc/msdos/simtel20/music
+           FILE -rw-rw-r--     180560  Jul 14 19:00  alcomp10.zip
+
+Host ftp.uwasa.fi
+
+    Location: /mirror/ultrasound/util/windows
+           FILE -r--r--r--     180560  Jul 29 20:17  alcomp10.zip
+    Location: /windows/sound
+           FILE -rw-rw-r--     180830  Jul 12 23:13  alcomp10.zip
+
+Host ftp.wustl.edu
+
+    Location: /systems/ibmpc/msdos/music
+           FILE -r--r--r--     180560  Jul 14 13:00  alcomp10.zip
+    Location: /systems/ibmpc/ultrasound/util/windows
+           FILE -rw-r--r--     180560  Jul 29 22:17  alcomp10.zip
+    Location: /systems/ibmpc/win3/sounds
+           FILE -r--r--r--     180560  Jul 12 20:31  alcomp10.zip
+    Location: /usenet/comp.binaries.ms-windows/v5
+           FILE -rw-r--r--     180560  Aug  5 15:26  alcomp10.zip
+
+Host ntu.ac.sg
+
+    Location: /archive3/msdos/music
+           FILE -r--r--r--     180560  Jul 15 11:00  alcomp10.zip
+    Location: /archive4/win3/sounds
+           FILE -r--r--r--     180560  Jul 13 04:31  alcomp10.zip
+

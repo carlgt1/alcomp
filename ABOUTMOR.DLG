@@ -1,0 +1,16 @@
+DG_ABOUTMORE DIALOG 5, 5, 233, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CLASS "bordlg"
+CAPTION "More About"
+BEGIN
+	CTEXT "To register send $5 to:\n\nCarl Christensen\n2000 Dekalb Street\nNorristown, PA  19401  USA", -1, 53, 10, 135, 43, WS_CHILD | WS_VISIBLE | WS_GROUP
+	CTEXT "Written Entirely in Borland C++ v. 3.1\nDLL Libraries property of Borland, Intl.", -1, 52, 119, 129, 16, WS_CHILD | WS_VISIBLE | WS_GROUP
+	CTEXT "Send bugs or comments to\nabove address or by E-Mail to:\n\nchristen@picasso.ocis.temple.edu", -1, 57, 75, 118, 33, WS_CHILD | WS_VISIBLE | WS_GROUP
+	CONTROL "&OK", IDOK, "BorBtn", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 143, 32, 20
+	CONTROL "Button", ID_ELP, "BorBtn", BBS_BITMAP | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 5, 18, 44, 32
+	CONTROL "Button", ID_GENESIS, "BorBtn", BBS_BITMAP | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 195, 17, 33, 32
+	CONTROL "Button", ID_YES, "BorBtn", BBS_BITMAP | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 5, 75, 44, 32
+	CONTROL "Button", ID_FLOYD, "BorBtn", BBS_BITMAP | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 195, 75, 33, 32
+	CONTROL "", 217, "BorShade", 2 | WS_CHILD | WS_VISIBLE, 0, 139, 233, 2
+	CONTROL "", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | NOT WS_VISIBLE, 100, 143, 32, 20
+END

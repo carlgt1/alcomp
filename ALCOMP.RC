@@ -1,0 +1,88 @@
+#include "alcomp.h"
+#include <windows.h>
+#include <owlrc.h>
+
+#include "tracedit.dlg"
+#include "tracview.dlg"
+#include "rhythm.dlg"
+#include "aboutmor.dlg"
+#include "filedial.dlg"
+#include "about.dlg"
+#include "almenu.mnu"
+#include "condedit.dlg"
+#include "setcond.dlg"
+#include "songdia.dlg"
+#include "rhycond.dlg"
+
+AC_ALCOMP ACCELERATORS 
+BEGIN
+	"^O", MN_FILEOPEN
+	"^N", MN_FILENEW
+	VK_F4, MN_FILEEXIT, VIRTKEY, ALT
+	"^A", MN_FILESAVEAS
+	"^S", MN_FILESAVE
+	VK_F1, MN_HELPINDEX, VIRTKEY
+	"^P", MN_CONDITIONAL
+	"^R", MN_PROBABILITY, ASCII
+END
+
+
+
+
+BM_KEYBOARD BITMAP "keyboard.bmp"
+
+BM_WHOLE BITMAP "whole.bmp"
+BM_HALF BITMAP "half.bmp"
+BM_QUARTER BITMAP "quarter.bmp"
+BM_EIGHTH BITMAP "eighth.bmp"
+BM_SIXTEENTH BITMAP "sixteen.bmp"
+BM_THIRTYSECOND BITMAP "thirty2.bmp"
+
+BM_GENESIS BITMAP "ww.bmp"
+BM_ELP BITMAP "elp.bmp"
+BM_FLOYD BITMAP "meddle.bmp"
+BM_YES BITMAP "yesterda.bmp"
+
+BM_MORE BITMAP "more.bmp"
+
+BM_EDIT BITMAP "edit.bmp"
+BM_ADD BITMAP "add.bmp"
+BM_DELETE BITMAP "delete.bmp"
+BM_GENERATE BITMAP "generate.bmp"
+
+BM_TOGGLE BITMAP "toggle.bmp"
+BM_RHYTHM BITMAP "rhythms.bmp"
+
+BM_GAUSSIAN BITMAP "gauss.bmp"
+BM_LINEAR BITMAP "linear.bmp"
+BM_UNIFORM BITMAP "uniform.bmp"
+BM_EXPONENT BITMAP "exponen.bmp"
+BM_POISSON BITMAP "poisson.bmp"
+BM_CAUCHY BITMAP "cauchy.bmp"
+
+
+BM_MORE_PUSHED BITMAP "pmore.bmp"
+
+BM_EDIT_PUSHED BITMAP "pedit.bmp"
+BM_ADD_PUSHED BITMAP "padd.bmp"
+BM_DELETE_PUSHED BITMAP "pdelete.bmp"
+BM_GENERATE_PUSHED BITMAP "pgenerat.bmp"
+
+BM_TOGGLE_PUSHED BITMAP "ptoggle.bmp"
+BM_RHYTHM_PUSHED BITMAP "prhythms.bmp"
+
+BM_GAUSSIAN_PUSHED BITMAP "pgauss.bmp"
+BM_LINEAR_PUSHED BITMAP "plinear.bmp"
+BM_UNIFORM_PUSHED BITMAP "puniform.bmp"
+BM_EXPONENT_PUSHED BITMAP "pexponen.bmp"
+BM_POISSON_PUSHED BITMAP "ppoisson.bmp"
+BM_CAUCHY_PUSHED BITMAP "pcauchy.bmp"
+
+BM_SONG BITMAP "song.bmp"
+
+BM_JUNK BITMAP "junk.bmp"
+
+ICON_1 ICON "alcomp.ico"
+
+CU_BUSY CURSOR "busy.cur"
+

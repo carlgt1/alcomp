@@ -1,0 +1,26 @@
+MN_ALCOMP MENU 
+BEGIN
+	POPUP "&File"
+	BEGIN
+		MENUITEM "&New\tCtrl+N", MN_FILENEW
+		MENUITEM "&Open...\tCtrl+O", MN_FILEOPEN
+		MENUITEM "&Save\tCtrl+S", MN_FILESAVE, GRAYED
+		MENUITEM "Save &as...\tCtrl+A", MN_FILESAVEAS, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "E&xit\tAlt+F4", MN_FILEEXIT
+	END
+
+	POPUP "&Edit"
+	BEGIN
+		MENUITEM "&Random Probabilities...\tCtrl+R", MN_PROBABILITY
+		MENUITEM "Conditional &Probabilities...\tCtrl+P", MN_CONDITIONAL
+		MENUITEM "&Fractal Music...\tCtrl+F", 888, GRAYED
+	END
+
+	POPUP "&Help"
+	BEGIN
+		MENUITEM "&Index\tF1", MN_HELPINDEX
+		MENUITEM "&About...", MN_ABOUT
+	END
+
+END
